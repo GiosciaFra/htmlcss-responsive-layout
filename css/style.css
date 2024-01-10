@@ -12,7 +12,7 @@ body {
 nav {
     background-color: #0084fd;
     width: 100%;
-    height: 70px;
+    height: 75px;
 
     display: flex;
     justify-content: space-between;
@@ -20,19 +20,24 @@ nav {
     padding: 32px;
 }
 
-nav div {
-    color: white;
-    /* test */
-}
 
 .links {
     display: none;
 }
 
-.container {
-    margin: auto;
-    padding: auto;
-    width: 100%;
+menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.logo img {
+    width: 60px;
+}
+
+.hamburger .fa-solid {
+color: white;
 }
 
 /* start hero */
@@ -46,36 +51,74 @@ nav div {
     
 }
 
-.second-box {
 
-    margin: 0px 15px 25px 15px;
-    background-color: #b5ddff;
-    border-radius: 15px;
-
-}
-
-.box {
+.box, .second-box {
 
     margin: 0px 15px 25px 15px;
     border-radius: 15px;
     background-color: #b5ddff;
-
-    /* Test */
-
-    height: 355px;
 
 }
 
 .box.mainbox {
 
     margin-top: 50px;
-
-    /* Test */
-    height: 100%;
 }
 
 .box-content {
     padding: 0px 30px 0px 30px;
+}
+
+.blue-text {
+    font-weight: bold;
+    font-size: 21px;
+    color: #2e9afe;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box-content p {
+    margin-bottom: 36px;
+}
+
+
+.box-content a {
+    color: white;
+    text-decoration: none;
+    background-color: #0084fd;
+    padding: 10px 20%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.box-content .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box-content img {
+    display: block;
+    width: 250px;
+}
+
+.box-content .fa-solid {
+    font-size: 80px;
+    color: #0084fd;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 40px;
+
+}
+
+.box .box-content .txt {
+    margin-top: 36px;
+}
+
+.box-content .txt p {
+    text-align: center;
 }
 
 
