@@ -319,21 +319,119 @@ color: white;
     padding: 40px 30px 0px 30px;
 }
 
-.quote-picture{
-    padding: 0px 30px 20px 30px;
+
+.info h2 {
+    color: #9792e4;
+    margin-bottom: 50px;
+    font-size: 35px;
 }
 
+.info p {
+    margin-bottom: 60px;
+}
 
+.quote-picture{
+    padding: 0px 30px 20px 30px;
+    position: relative;
+}
+
+.quote-picture .fa-solid {
+    position: absolute;
+    top: 0;
+    left: 150px;
+
+    font-size: 55px;
+    color: #9792e4;
+}
+
+.quote-picture img {
+    max-height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quote-text {
+    margin-bottom: 30px; 
+    color: #9792e4;
+    font-size: 25px;
+    padding: 0px 30px;
+}
+
+.quote a {
+    color: white;
+    text-decoration: none;
+    background-color: #9792e4;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin: 0px 30px;
+    font-size: 15px;
+}
 
 /* end about us */
+
+
 
 /* start get-started */
 
 .get-started {
-    padding: 30px 0;
-    /* test */
-
     background-color: #9792e4;
+}
+
+.gs-content {
+    padding: 60px 30px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.simple {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.free {
+    color: #fdc15f;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.gs-info {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gs-link {
+    display: flex;
+    justify-content: center;
+}
+
+.gs-link > a {
+    color: #9792e4;
+    background-color: white;
+    padding: 15px 65px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.copyright {
+    margin-top: 40px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
 }
 
 
