@@ -192,11 +192,6 @@ color: white;
 
 /* start testimonial */
 
-.testimonial {
-    padding: 30px 0;
-    /* test */
-    background-color: white;
-}
 
 .test-text {
     text-align: center;
@@ -260,15 +255,55 @@ color: white;
 /* start benefits */
 
 .benefits {
-    padding: 30px 0;
-    /* test */
+
+    padding-bottom: 40px;
+    margin-bottom: 40px;
     background-color: #9792e4;
+}
+
+.benefits h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 70px 0 45px 0;
 }
 
 .benefits-box {
     border-radius: 15px;
     margin: 30px;
     background-color: white;
+}
+
+.benefits-content {
+    padding: 45px 30px;
+}
+
+.no-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: #9792e4;
+    margin-bottom: 35px;
+}
+
+.benefits-title {
+    font-weight: bold;
+    margin-bottom: 35px;
+    font-size: 25ox;
+    color: #9792e4;
+}
+
+.benefits-content p {
+    margin-bottom: 35px;
+
+}
+
+.benefits-content a {
+    background-color: #9792e4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 25px;
 }
 
 /* end benefits */
