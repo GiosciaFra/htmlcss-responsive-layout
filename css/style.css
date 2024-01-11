@@ -25,9 +25,22 @@ nav {
     display: none;
 }
 
-menu a {
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu a {
     color: white;
     text-decoration: none;
+}
+
+.menu a:nth-of-type(5) {
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
 
 
@@ -42,14 +55,6 @@ color: white;
 
 /* start hero */
 
-
-.hero {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /* test */
-    background-color: white;
-    
-}
 
 
 .box, .second-box {
@@ -101,6 +106,7 @@ color: white;
 .box-content img {
     display: block;
     width: 250px;
+    padding-top: 40px;
 }
 
 .box-content .fa-solid {
@@ -119,6 +125,10 @@ color: white;
 
 .box-content .txt p {
     text-align: center;
+}
+
+.bottom-hero.box.txt, .second-box {
+    padding-bottom: 20px;
 }
 
 
@@ -149,6 +159,12 @@ color: white;
 
 }
 
+.planning-content p {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 
 .app-content {
     padding: 24px;
@@ -156,7 +172,6 @@ color: white;
 
 
 .app-develop {
-
     background-color: white;    
     border-radius: 35px; 
     margin: 32px;
@@ -440,20 +455,19 @@ color: white;
 /* start footer */
 
 footer {
-    padding: 30px 0;
     
     background-color: #333333;
 }
 
-footer div {
-
-    height: 100px;
-    width: 200px;
+.txt-top, .txt-bottom {
+    text-align: center;
     color: white;
-    border: 2px solid red;
-    /* test */
+    font-size: 15px;
+    padding: 30px;
+}
 
-
+.txt-bottom > a {
+    color: #9893e6;
 }
 
 /* end footer */
@@ -519,6 +533,10 @@ footer div {
         display: flex;
     }
 
+    .hamburger {
+        display: none;
+    }
+
     .demo {
         display: flex;
         flex-wrap: nowrap;
@@ -544,8 +562,12 @@ footer div {
 
     .benefits-box {
         width: calc(100% / 3 - 100px);
+        width: 25%;
     }
 
+    footer {
+        padding: 0 180px;
+    }
 
 
 }
@@ -554,6 +576,16 @@ footer div {
     .mainbox {
         display: flex;
     }
+
+    .box-content a {
+        margin-bottom: 100px
+    }
+
+    .hero, .planning, .testimonial, .benefits, .about-us, .get-started, footer {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
 }
 
 
