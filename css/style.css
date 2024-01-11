@@ -131,6 +131,23 @@ color: white;
     padding-bottom: 40px;
 }
 
+.planning-content {
+    padding: 29px;
+}
+
+.app-content img,.planning-content img  {
+    width: 100%;
+
+}
+
+.planning-title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 60px;
+
+}
 
 
 .app-content {
@@ -143,7 +160,33 @@ color: white;
     background-color: white;    
     border-radius: 35px; 
     margin: 32px;
-}    
+}  
+
+.app-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.app-content p {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.app-button .fa-solid {
+    background-color: #9792e4;
+    padding: 15px;
+    border-radius: 50%;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.app-button {
+    display: flex;
+    text-align: center;
+}
 
 /* end planning */
 
@@ -336,6 +379,8 @@ footer div {
         width: calc(100% / 3 - 100px);
     }
 
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -343,4 +388,5 @@ footer div {
         display: flex;
     }
 }
+
 
